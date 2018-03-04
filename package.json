@@ -1,11 +1,11 @@
 {
   "name": "loopbackchatwebrtc",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint .",
     "install": "npm install -g strongloop",
-    "start":"server.js",
+    "start":"server.js"
 
   },
   "dependencies": {
