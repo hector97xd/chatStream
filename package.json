@@ -3,21 +3,31 @@
   "version": "0.0.0",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
+    "pretest": "jshint .",
+    "install": "npm install -g strongloop",
+    "test":"slc run",
+
   },
   "dependencies": {
-    "compression": "^1.0.3",
-    "errorhandler": "^1.1.1",
-    "loopback": "^2.8.0",
-    "loopback-boot": "^2.4.0",
-    "loopback-datasource-juggler": "^2.7.0",
-    "serve-favicon": "^2.0.1",
-    "socket.io": "^1.2.1"
+    "compression": "*",
+    "errorhandler": "*",
+    "loopback": "*",
+    "loopback-boot": "*",
+    "loopback-datasource-juggler": "*",
+    "serve-favicon": "*",
+    "socket.io": "*",
+    "loopback-explorer": "*"
   },
   "optionalDependencies": {
-    "loopback-explorer": "^1.1.0"
+    "loopback-explorer": "*"
   },
   "devDependencies": {
-    "jshint": "^2.5.6"
-  }
+    "jshint": "*"
+  },
+  "engines":{
+  	"node":"9.3.0"
+  },
+  "description": "This repo is in relation with the following video wich introduce the WebRTC",
+  "author": "hector",
+  "license": "ISC"
 }
